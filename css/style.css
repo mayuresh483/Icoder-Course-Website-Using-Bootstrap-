@@ -6,12 +6,12 @@
   height: 180px;
 }
 .software{
-  background-image: url(images/software.jpg);
+  background-image: url('images/software.jpg');
   padding:6rem;
   background-size: cover;
 }
 .datascience{
-  background-image: url(images/software.jpg);
+  background-image: url('images/datascience.jpg');
   padding:6rem;
   background-size: cover;
 }
@@ -68,7 +68,7 @@
   display: none;
 }
 .fullstack{
-  background-image: url(images/software.jpg);
+  background-image: url('images/fullstack.jpg');
   padding:6rem;
   background-size: cover;
 }
