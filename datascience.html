@@ -1,0 +1,317 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">iCoders</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="fullstack.html">FullStack Development</a>
+                        <a class="dropdown-item" href="software.html">Software Development</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item active" href="#">Data Science</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+                <button type="button" class="btn btn-outline-success mx-2" data-toggle="modal"
+                    data-target="#exampleModal">Sign
+                    Up</button>
+                <button type="button" class="btn btn-outline-danger" data-toggle="modal"
+                    data-target="#exampleModal2">Login</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">First Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Last Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="validationCustomUsername">Username</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                </div>
+                                <input type="text" class="form-control" id="validationCustomUsername"
+                                    placeholder="Username" aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Confirm Password" required>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                            <label class="form-check-label" for="exampleCheck1" >Agree to terms and conditions</label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary ">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p class="text-center">Have an account? <a href="" data-toggle="modal" data-target="#exampleModal2" data-dismiss="modal">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal2Label"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModal2Label">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password" required>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="software" style="background-image: url(/images/datascience.jpg);padding:6rem;background-size: cover;">
+        <h5 class="text-light">#Job skill</h5>
+        <h1 class="text-light" style="font-size:48px;">Data Science</h1>
+        <div class="">
+            <ul class="text-light">
+                <li class="mb-10">6 month program that is available in a modular structure</li>
+                <li class="mb-10">10+ hands-on projects on real-world applications</li>
+                <li class="mb-10">Mentoring from industry experts</li>
+                <li class="mb-10">Active support with all course queries</li>
+            </ul>
+        </div>
+        <div>
+            <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-light my-4" style="padding: 1rem 3rem;">Apply Now</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Course Content</h3>
+                        <hr>
+                        <ul class="card-text text-muted">
+                            <li>Course Introduction</li>
+                            <li>Python Basics</li>
+                            <li>Data Science with R Programming</li>
+                            <li>Machine Learning</li>
+                            <li>Tableau Training</li>
+                            <li>Big Data Hadoop</li>
+                            <li>Spark Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">What is Data Science?</h5>
+                        <p class="card-text text-muted" style="text-indent: 40px;">Data Science is a blend of various tools, algorithms, and machine learning principles with the goal to discover hidden patterns from the raw data.</p>
+                        <p class="text-muted" style="text-indent: 40px;">Data Science is primarily used to make decisions and predictions making use of predictive causal analytics, prescriptive analytics (predictive plus decision science) and machine learning.</p>
+                        <div class="accordion" id="accordionExample1">
+                            <h5 class="mb-0 text-center">
+                                <button class="btn btn-link hide-me" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne">
+                                    read more!!
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne1" class="collapse" aria-labelledby="headingOne"
+                            data-parent="#accordionExample1">
+                            <div class="card-body">
+                                <ul>
+                                    <li>
+                                        <p class="text-muted"><strong>Predictive causal analytics</strong>– If you want a model that can predict the possibilities of a particular event in the future, you need to apply predictive causal analytics. Say, if you are providing money on credit, then the probability of customers making future credit payments on time is a matter of concern for you. Here, you can build a model that can perform predictive analytics on the payment history of the customer to predict if the future payments will be on time or not.</p>
+                                    </li>
+                                    <li>
+                                        <p class="text-muted"><strong>Prescriptive analytics</strong>-If you want a model that has the intelligence of taking its own decisions and the ability to modify it with dynamic parameters, you certainly need prescriptive analytics for it. This relatively new field is all about providing advice. In other terms, it not only predicts but suggests a range of prescribed actions and associated outcomes.
+                                            The best example for this is Google’s self-driving car which I had discussed earlier too. The data gathered by vehicles can be used to train self-driving cars. You can run algorithms on this data to bring intelligence to it. This will enable your car to take decisions like when to turn</p>
+                                    </li>
+                                    <li>
+                                        <p class="text-muted"><strong>Machine learning for making predictions</strong>-If you have transactional data of a finance company and need to build a model to determine the future trend, then machine learning algorithms are the best bet. This falls under the paradigm of supervised learning. It is called supervised because you already have the data based on which you can train your machines. For example, a fraud detection model can be trained using a historical record of fraudulent purchases.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h5 class="text-center">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne">
+                                    Click Me to Hide!!
+                                </button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0 text-center">
+                        <button class="btn btn-link hide-me" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="false" aria-controls="collapseOne">
+                            Languages You will Learn in this Course!!
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="card-deck text-center">
+                            <div class="card">
+                                <img class="card-image rounded-circle my-4" src="images/python.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Python</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                            <div class="card ">
+                                <img class="card-image rounded-circle my-4" src="images/r.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">R</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card ">
+                                <img class="card-image rounded-circle my-4" src="images/javascript.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">JavaScript</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This card has even longer content than the first to show
+                                        that equal height
+                                        action.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-deck my-4 text-center justify-content-center">
+                            <div class="card col-lg-4 col-sm-6 my-4">
+                                <img class="card-image rounded-circle my-4" src="images/sas.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Sas</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4 col-sm-6 my-4">
+                                <img class="card-image rounded-circle my-4" src="images/matlab.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Matlab</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="text-center">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="false" aria-controls="collapseOne">
+                    Click Me To hide!!
+                  </button>
+                </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-muted text-center text-small bg-dark" style="padding: 2rem;">
+        <p class="mb-1">© 2021 iCoders</p>
+        <ul class="list-inline">
+            <li class="list-inline-item "><a class="text-light" href="index.html">Home</a></li>
+            <li class="list-inline-item"><a class="text-light" href="#">Courses</a></li>
+            <li class="list-inline-item"><a class="text-light" href="contactus.html">Contact Us</a></li>
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
