@@ -5,7 +5,20 @@
   width: 50%;
   height: 180px;
 }
+.software{
+  style="background-image: url(/images/software.jpg);
+  padding:6rem;
+  background-size: cover;
+}
+.datascience{
+  style="background-image: url(/images/software.jpg);
+  padding:6rem;
+  background-size: cover;
+}
 .software h1{
+  font-size: 48px;
+}
+.datascience h1{
   font-size: 48px;
 }
 @media (max-width:400px){
@@ -32,6 +45,19 @@
     font-size: 2.5rem;
   }
   .fullstack ul li{
+    font-size: 0.9rem;
+  }
+  
+  .datascience{
+    margin-left: -60px;
+  }
+  .datascience h5{
+    font-size: 1rem;
+  }
+  .datascience h1{
+    font-size: 2.5rem;
+  }
+  .datascience ul li{
     font-size: 0.9rem;
   }
   .card h5 .btn{
